@@ -1,11 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../assets/styles/style.css">
 </head>
+
 <body>
-    CONTACT US
+    <header id="header">
+        <nav class="navbar container">
+            <div class="top-row">
+                <div class="logo">
+                    <img src="../assets/images/logo1.png" class="logo-image">
+                    <a href="../index.html"><span class="heading">Espresso Yourself</span></a> 
+                </div>
+            </div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+            <label for="menu-toggle" class="menu-btn">☰</label>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/menu.html">Menu</a></li>
+                <li><a href="../pages/aboutus.html">About Us</a></li>
+                <li><a href="../pages/contactus.html">Contact Us</a></li>
+                <li><a href="../pages/ordernow.html">Order Now</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2 class="heading">Contact Us</h2>
+                <p>Feel free to use the form or drop us an email. <br> Old-fashioned phone calls work too.</p>
+                <p>📞 484.324.2400</p>
+                <p>📧 info@mediaproper.com</p>
+                <p>📍 15 West 3rd St.<br> Media, Pa. 19063</p>
+            </div>
+            
+            <form class="contact-form">
+                <label for="name">Name</label>
+
+                <div class="fullname">
+                
+                <div class="First">
+                    <input type="text" placeholder="First" id="name" required>
+                </div>
+                <div class="Last">
+                <input type="text" placeholder="Last" required>
+                </div>
+        </div>
+        <label for="email">Email</label>
+        <input type="email" placeholder="example@email.com" id="email" required>
+        <label for="tel">Phone (Optional)</label>
+        <input type="tel" placeholder="xxx-xxx-xxxx" id="telephone">
+        <label for="message">Message</label>
+        <textarea placeholder="Type your message ..." required id="message"></textarea>
+        <div>
+        <button type="submit" class="primary-button">Submit</button>
+        </div>
+        </form>
+        </div>
+    </section>
+    <footer id="coffee-footer" class="container">
+  <div class="footer-content">
+    <div class="footer-section hours">
+      <h3 id="opening-heading"class="heading">Opening Hours</h3>
+      <p>Mon - Fri: 7am - 8pm</p>
+      <p>Sat - Sun: 8am - 6pm</p>
+    </div>
+    <div class="footer-section contact">
+      <h3  id="contact-heading" class="heading">Contact Us</h3>
+      <p>Email: hello@espressoyourself.com</p>
+      <p>Phone: (123) 456-7890</p>
+      <p>123 Brew Street, Bean Town</p>
+    </div>
+    <div class="footer-section social">
+      <h3 class="heading">Follow Us</h3>
+      <div class="social-links">
+        <a href="#" aria-label="Facebook">🌐 Facebook</a><br>
+        <a href="#" aria-label="Instagram">📸 Instagram</a><br>
+        <a href="#" aria-label="Twitter">🐦 Twitter</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Espresso Yourself • Crafted with ☕ and ❤️</p>
+  </div>
+</footer>
 </body>
+
 </html>

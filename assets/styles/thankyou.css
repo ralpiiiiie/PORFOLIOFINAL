@@ -1,0 +1,23 @@
+
+
+.thankyou-heading {
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh; /* full viewport height */
+  text-align: center;
+}
+
+.thankyou-heading h1 {
+    font-size: 32px;
+}
+
+.thankyou-heading p {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.thankyou-button {
+    padding-top: 22px;
+}

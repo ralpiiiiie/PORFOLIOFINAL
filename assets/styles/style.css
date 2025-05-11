@@ -1,12 +1,17 @@
 
 @import "button.css";
-
 @import "navbar.css";
+@import "footer.css";
+
 @import "hero-banner.css";
 @import "features.css";
 @import "promo.css";
 @import "about.css";
  @import "menu.css";
+ @import "contact.css";
+ @import "ordernow.css";
+ @import "thankyou.css";
+
 * {
     padding: 0;
     margin: 0;
@@ -28,4 +33,5 @@ html, body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 }
+
 

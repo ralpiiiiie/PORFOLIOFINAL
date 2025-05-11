@@ -1,0 +1,81 @@
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.contact-info {
+    width: 40%;
+}
+
+.contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.contact-form {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fullname {
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+   .contact-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .contact-info {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .fullname {
+  display: flex;
+  flex-direction: row; /* Row layout */
+  gap: 10px;            /* Space between first and last name */
+}
+
+.fullname .First,
+.fullname .Last {
+  flex: 1;              /* Make them share available width equally */
+}
+
+.fullname input {
+  width: 100%;          /* Input takes full width of its flex container */
+}
+}

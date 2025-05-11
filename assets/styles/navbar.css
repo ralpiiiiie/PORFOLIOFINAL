@@ -1,11 +1,19 @@
 #header {
     
-    background: rgb(26, 16, 3);
+    background:  #1a120b;
     width: 100%;
-    
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+ul a:hover {
+  text-decoration: underline;
+  color: #fff;
 }
 ul li {
-    color: rgb(228, 213, 194);
+    color:#d9a441;
     font-size: 17px;  
 }
  .logo {
@@ -18,7 +26,7 @@ ul li {
      width: 100px;  
  }
  .logo span {
-    color: rgb(228, 213, 194);
+    color: #d9a441;
     font-size: 17px;
  } 
  .top-row {
