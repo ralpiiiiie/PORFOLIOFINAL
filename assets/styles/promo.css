@@ -1,35 +1,58 @@
 #promo-section {
    width: 100%;
 }
+
 .promos {
-    display: flex;
-    width: 100%;
+   display: flex;
+   width: 100%;
 }
- .morning-section {
+
+.morning-happy {
+   color: #ffffff;
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+   align-items: center;
+}
+
+.morning-happy p {
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.morning-section {
    display: flex;
    flex-direction: column;
    padding: 0 70px;
- }
- 
- .promo {
-    flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  
- }
+}
 
- .morning-section {
-    background-image: url(../images/morningbg.png);
-    background-position: center;
-    background-size: cover;
-    align-items: flex-start;
- }
+.promo {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 
 
- .promo-content {
-    padding: 120px;
-    text-align: center;
+}
+
+.morning-section {
+   background-image: url(../images/morningbg.png);
+   background-position: center;
+   background-size: cover;
+   align-items: flex-start;
+}
+
+
+.promo-content {
+
+   padding: 110px;
+   text-align: center;
+
+}
+
+.promo-content .promo-des {
+   padding-top: 12px;
+   padding-bottom: 28px;
 }
 
 
@@ -43,5 +66,3 @@
       padding: 0;
    }
 }
-
-

@@ -1,35 +1,40 @@
 #header {
-    
-    background:  #1a120b;
+
+    background: #1a120b;
     width: 100%;
 }
 
 .logo a {
     text-decoration: none;
+
 }
 
 ul a:hover {
-  text-decoration: underline;
-  color: #fff;
+    text-decoration: underline;
+    color: #ffffff;
 }
+
 ul li {
-    color:#d9a441;
-    font-size: 17px;  
+
+    font-size: 17px;
 }
- .logo {
+
+.logo {
     display: flex;
     align-items: center;
- }
- 
- .logo-image {
-     height: auto;
-     width: 100px;  
- }
- .logo span {
-    color: #d9a441;
-    font-size: 17px;
- } 
- .top-row {
+}
+
+.logo-image {
+    height: auto;
+    width: 100px;
+}
+
+.logo span {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.top-row {
     display: flex;
     align-items: center;
 }
@@ -38,14 +43,16 @@ ul li {
     display: flex;
     justify-content: space-between;
 }
+
 .menu-btn {
-    color: rgb(228, 213, 194);
+    color: #ffffff;
     font-size: 24px;
     display: none;
     align-self: center;
     cursor: pointer;
     padding-right: 12px;
 }
+
 .menu-toggle {
     display: none;
 }
@@ -55,13 +62,16 @@ ul li {
     list-style: none;
     padding-right: 20px;
 }
+
 .nav-links a {
     text-decoration: none;
     color: rgb(228, 213, 194);
+    font-weight: bold;
 }
 
 
-.nav-links, li {
+.nav-links,
+li {
     display: flex;
     justify-content: space-evenly;
     gap: 38px;
@@ -78,24 +88,26 @@ ul li {
         width: 100%;
         display: none;
         flex-direction: column;
-        align-items: center; 
-        gap: 20px; 
-        position: absolute; 
-        top: 100%; 
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        top: 100%;
         left: 0;
-        background: rgb(26, 16, 3); 
-        padding: 20px 0; 
-         z-index: 10; /*para maka sure magpabilin sa taas */
-   
+        background: rgb(26, 16, 3);
+        padding: 20px 0;
+        z-index: 10;
+        /*para maka sure magpabilin sa taas */
+
     }
-    .menu-toggle:checked ~ .nav-links {
+
+    .menu-toggle:checked~.nav-links {
         display: flex;
-      
+
     }
 
     .navbar {
-        position: relative; 
-        justify-content: space-between; 
-        align-items: center; 
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
     }
 }

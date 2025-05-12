@@ -1,12 +1,11 @@
-
-
 .thankyou-heading {
     display: flex;
     flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 90vh; /* full viewport height */
-  text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    /* full viewport height */
+    text-align: center;
 }
 
 .thankyou-heading h1 {

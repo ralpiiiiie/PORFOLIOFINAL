@@ -1,36 +1,114 @@
-#about-section{
+#about-section {
     display: flex;
-    background-color: antiquewhite;
+    overflow: hidden;
     gap: 10px;
 
 }
-.about{
-    width: 700px;
-    word-wrap:break-word ;
+
+.about {
+    word-wrap: break-word;
     text-align: center;
     font-family: serif;
-    
 
 }
+
 .about p {
-    font-size: 23px; 
+    font-size: 23px;
     line-height: 1.5;
     text-indent: 12px;
-    text-align: center;
+
 }
-.about h2{
+
+.about h2 {
     padding-top: 30px;
     padding-bottom: 20px;
 }
 
-.about-text{
+.about-text {
     font-family: serif;
     font-weight: bold;
 }
-.exterior{
-    width: 700px;
-    height: 600px;
-    border-bottom-left-radius: 35%;
-    border-top-left-radius: 35% ;
-    border-top-right-radius: 30%;   
+
+
+.about-des {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.coffeee {
+    display: flex;
+    justify-content: center;
+}
+
+.coffee-description {
+    flex: 1 1 300px;
+    max-width: 500px;
+    font-family: serif;
+    font-size: 20px;
+    line-height: 1.6;
+    padding-left: 30px;
+    padding-top: 100px;
+
+}
+
+.coffee-farmer img {
+    max-width: 100%;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 8px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    display: block;
+    padding-top: 20px;
+}
+
+
+
+.leftcoffee {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.leftfarmer .Exterior {
+    height: 400px;
+    width: 500px;
+
+}
+
+.about-text {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .coffeee {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .coffee-farmer img {
+        max-width: 100%;
+        /* Scale down on smaller screens */
+        height: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+
+    .coffee-description {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 40px;
+    }
+
+    .coffee-farmer .Exterior {
+        height: 250px;
+    }
 }

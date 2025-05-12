@@ -1,115 +1,122 @@
- 
-
  .visit-heading {
-    text-align: center;
-    padding-top: 50px;
-} 
-.visit-heading #coffee-heading {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+   text-align: center;
+   padding-top: 50px;
+ }
 
-.menu-buttons a {
-  text-decoration: none;
-}
+ .visit-heading #coffee-heading {
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
 
-.menu-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-}
-.coffees {
-    background-color: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    flex: 1 1 100px;
-    text-align: center;
-}
+ .menu-buttons a {
+   text-decoration: none;
+ }
 
-.coffees img {
-  width: 20px;
-}
-.coffee {
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    max-width: 220px;
-    text-align: center;
-  }
-.coffee-cards {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-top: 10px;
-    margin-bottom: 24px;
-    padding: 0 20px;
-  
-  }
-   .coffee-cards .cart-icon {
-    padding-top: 8px;
-    cursor: pointer;
-    height: 50px;
-    width: 40px;
-  }
-  .coffee-cards img {
-    width: 200px;
-    max-width: 250px;
-    height: auto;
-    
-  }
+ .menu-buttons {
+   display: flex;
+   justify-content: center;
+   gap: 16px;
+ }
 
-  .coffee-cards h3, p {
-    text-align: center;
-  }
+ .coffees {
+   background-color: #fff;
+   border-radius: 10px;
+   overflow: hidden;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   flex: 1 1 100px;
+   text-align: center;
+ }
 
-  .coffees .coffee-des {
-    padding-top: 2px;
-    padding-bottom: 2px;
-  }
+ .coffees img {
+   width: 20px;
+ }
 
-  .visit-heading p {
-    padding-top: 10px;
-    padding-bottom: 22px;
-  }
+ .coffee {
+   overflow: hidden;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   max-width: 220px;
+   text-align: center;
+ }
 
-  .next-button {
-    display: flex;
-    gap: 10px;
-    padding: 20px;
-    display: flex;
-    justify-content: center
-  }
+ .coffee-cards {
+   display: flex;
+   justify-content: space-evenly;
+   gap: 20px;
+   flex-wrap: wrap;
+   margin-top: 10px;
+   margin-bottom: 24px;
+   padding: 0 20px;
+   padding-bottom: 24px;
 
-@media only screen and (max-width: 768px) {
-  .coffee-cards {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 16px;
-  }
+ }
 
-  .coffees {
-    flex: 0 1 calc(50% - 20px); /* 2 cards per row with some spacing */
-    max-width: 300px;
-    margin-bottom: 16px;
-  }
+ .coffee-cards .cart-icon {
+   padding-top: 8px;
+   cursor: pointer;
+   height: 50px;
+   width: 40px;
+ }
 
-  .coffees img {
-    width: 100%;
-    height: auto;
-    max-width: 180px;
-    margin: 0 auto;
-  }
+ .coffee-cards img {
+   width: 200px;
+   max-width: 250px;
+   height: auto;
 
-  .cart-icon {
-    width: 40px;
-    height: auto;
-  }
+ }
 
-  .coffees h3,
-  .coffees .coffee-des {
-    font-size: 1rem;
-  }
+ .coffee-cards h3,
+ p {
+   text-align: center;
+ }
 
-}
+ .coffees .coffee-des {
+   padding-top: 2px;
+   padding-bottom: 2px;
+ }
+
+ .visit-heading p {
+   padding-top: 10px;
+   padding-bottom: 22px;
+ }
+
+ .next-button {
+   display: flex;
+   gap: 10px;
+   padding: 20px;
+   display: flex;
+   justify-content: center
+ }
+
+ @media only screen and (max-width: 768px) {
+   .coffee-cards {
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 16px;
+   }
+
+   .coffees {
+     flex: 0 1 calc(50% - 20px);
+     /* 2 cards per row with some spacing */
+     max-width: 300px;
+     margin-bottom: 16px;
+   }
+
+   .coffees img {
+     width: 100%;
+     height: auto;
+     max-width: 180px;
+     margin: 0 auto;
+   }
+
+   .cart-icon {
+     width: 40px;
+     height: auto;
+   }
+
+   .coffees h3,
+   .coffees .coffee-des {
+     font-size: 1rem;
+   }
+
+ }

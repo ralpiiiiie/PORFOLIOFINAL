@@ -10,59 +10,67 @@
 }
 
 #hero-banner {
-    display: flex;
-    align-items: center;
-    padding: 160px 190px;
-   
+  display: flex;
+  align-items: center;
+  padding: 160px 190px;
+
 }
 
 
 .hero-content {
-    max-width: 500px;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
 .hero-heading {
-    gap: 0;
+  gap: 0;
+  justify-content: left;
+
+
 }
 
+.head-description {
+  padding-top: 20px;
+}
+
+
 .hero-content h2 {
-    font-size: 34px;
-  }
+  font-size: 34px;
+}
+
 .hero-content h1 {
-    font-size: 38px;
+  font-size: 38px;
+}
+
+@media only screen and (max-width: 1024px) {
+  #hero-banner {
+    flex-direction: column;
+
   }
 
-  @media only screen and (max-width: 1024px) {
-    #hero-banner {
-      flex-direction: column;
-      
-    }
+  .hero-content {
+    max-width: 100%;
+  }
+}
 
-    .hero-content {
-      max-width: 100%;
-    }
+@media only screen and (max-width: 768px) {
+
+  .hero-section {
+    background-position: 70% center;
   }
 
-  @media only screen and (max-width: 768px) {
-
-    .hero-section{
-      background-position: 70% center;
-    }
-    #hero-banner {
-      flex-direction: column;
-      padding: 80px 50px;
-    }
-    .hero-content .buttons {
-      display: flex;
-      
-
-      gap: 5px;
-    }
-    
+  #hero-banner {
+    flex-direction: column;
+    padding: 80px 50px;
   }
 
+  .hero-content .buttons {
+    display: flex;
 
 
+    gap: 5px;
+  }
+
+}
